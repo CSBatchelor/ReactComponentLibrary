@@ -8,6 +8,5 @@
         "dbaeumer.vscode-eslint",
         "wix.vscode-import-cost",
     ],
-    "postStartCommand": ["npm run storybook"],
-    "postAttachCommand": ["apt-get update", "apt-get upgrade -y",]
+    "postAttachCommand": "apt-get update && apt-get upgrade -y && npm install"
 }
