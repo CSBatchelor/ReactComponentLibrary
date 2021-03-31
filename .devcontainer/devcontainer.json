@@ -1,5 +1,5 @@
 {
-    "name": "Development",
+    "name": "React Component Library Dev Container",
     "dockerFile": "Dockerfile",
     "extensions": [
         "eamodio.gitlens",
