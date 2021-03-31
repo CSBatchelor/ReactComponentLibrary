@@ -1,0 +1,13 @@
+{
+    "name": "Development",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "eamodio.gitlens",
+        "mgmcdermott.vscode-language-babel",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "wix.vscode-import-cost",
+    ],
+    "postStartCommand": ["npm run storybook"],
+    "postAttachCommand": ["apt-get update", "apt-get upgrade -y",]
+}
