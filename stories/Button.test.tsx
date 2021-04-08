@@ -10,8 +10,4 @@ describe("Button Component", () => {
 		const button = screen.getByText(buttonText)
 		expect(button).toBeInTheDocument()
 	})
-
-	it("should fail this test", () => {
-		expect(false).toBeTruthy()
-	})
 })
