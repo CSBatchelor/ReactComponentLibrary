@@ -1,4 +1,7 @@
 {
+	"env": {
+		"node": true
+	},
 	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
 		"ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
@@ -14,7 +17,7 @@
 		"plugin:react-hooks/recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:prettier/recommended",
-		"prettier/@typescript-eslint"
+		"prettier"
 	],
 	"rules": {
 		"react-hooks/rules-of-hooks": "error",
